@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  /* background-image: url("../assets/city-bg-h.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+.city {
+  display: inline-block;
+}
+.one {
+  width: 45%;
+  margin: 16px;
+}
+.two {
+  width: 45%;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #414141;
+  padding: 10px;
+  margin: 0;
+}
