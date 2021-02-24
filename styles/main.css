@@ -7,16 +7,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
+  /* background-color: tomato; */
 }
 .city {
   display: inline-block;
 }
 .one {
-  width: 45%;
+  /* width: 45%; */
   margin: 16px;
 }
 .two {
-  width: 45%;
+  /* width: 45%; */
+  margin: 16px;
 }
 
 .w-300 {
@@ -33,7 +35,30 @@ body {
 }
 
 nav {
-  background-color: #414141;
+  /* background-color: #414141; */
+  background: linear-gradient(#414141, rgb(30, 17, 17));
   padding: 10px;
   margin: 0;
+}
+
+.rounded {
+  padding: 25px;
+  color: white;
+  height: 100px;
+  width: 300px;
+  /* background-color: #414141; */
+  background: linear-gradient(rgb(249, 134, 72), red);
+  margin-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .rounded {
+    background-color: tomato;
+  }
+
+  .one, .two {
+    width: 45%;
+  }
+
 }
