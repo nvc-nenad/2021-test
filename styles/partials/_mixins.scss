@@ -1,0 +1,5 @@
+@mixin primary-button($radius, $font, $color) {
+  border-radius: $radius;
+  font-size: $font;
+  background-color: $color;
+}

@@ -1,0 +1,67 @@
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+body {
+  font-family: $primary-font;
+}
+
+header {
+  img {
+    width: 300px;
+  }
+  nav {
+    background-color: gray;
+    a {
+      color: $primary-color;
+    }
+    img {
+      width: 500px;
+    }
+  }
+}
+
+.test-btn {
+  // @include primary-button(7px, 12px, tomato);
+  background-color: $primary-btn-color;
+  color: white;
+  border: 0;
+  padding: 15px;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: lighten($primary-btn-color, 10%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Medium screens and up
+@media (min-width: 768px) {
+  
+}
+// Big screens
+@media (min-width: 1024px) {
+  
+}
